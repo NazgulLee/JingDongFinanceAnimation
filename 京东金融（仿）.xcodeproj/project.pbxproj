@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3008BCB91DB0C0090039F716 /* CellForSection1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCB81DB0C0090039F716 /* CellForSection1.m */; };
+		3008BCBC1DB0C8B60039F716 /* UIView+FrameProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCBB1DB0C8B60039F716 /* UIView+FrameProcessor.m */; };
+		3008BCBE1DB0CEAA0039F716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3008BCBD1DB0CEAA0039F716 /* Assets.xcassets */; };
+		3008BCC11DB21F9F0039F716 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCC01DB21F9F0039F716 /* CalendarViewController.m */; };
+		3008BCC41DB220F70039F716 /* CalendarPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCC31DB220F70039F716 /* CalendarPageViewController.m */; };
+		3008BCCC1DB2242B0039F716 /* CalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCCB1DB2242B0039F716 /* CalendarVC.m */; };
+		3008BCD51DB32AED0039F716 /* WeekInfoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCD41DB32AED0039F716 /* WeekInfoParser.m */; };
+		3008BCD81DB35E570039F716 /* DateCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCD71DB35E570039F716 /* DateCollectionViewCell.m */; };
+		3008BCDB1DB3777F0039F716 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCDA1DB3777F0039F716 /* SectionHeaderView.m */; };
+		3008BCDE1DB37A570039F716 /* SectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCDD1DB37A570039F716 /* SectionFooterView.m */; };
+		3008BCE61DB48F4E0039F716 /* CalendarLeftItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCE51DB48F4E0039F716 /* CalendarLeftItemView.m */; };
+		3008BCE91DB4ECD40039F716 /* CalendarPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3008BCE81DB4ECD40039F716 /* CalendarPickerView.m */; };
+		3038DD841DB096330042D66B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DD831DB096330042D66B /* main.m */; };
+		3038DD871DB096330042D66B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DD861DB096330042D66B /* AppDelegate.m */; };
+		3038DD921DB096330042D66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3038DD901DB096330042D66B /* LaunchScreen.storyboard */; };
+		3038DD9B1DB0973C0042D66B /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DD9A1DB0973C0042D66B /* UserViewController.m */; };
+		3038DD9F1DB098B80042D66B /* UserVCFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DD9E1DB098B80042D66B /* UserVCFlowLayout.m */; };
+		3038DDA51DB09F4A0042D66B /* CellForSection0.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DDA41DB09F4A0042D66B /* CellForSection0.m */; };
+		3038DDA81DB0A6090042D66B /* SeperatorDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3038DDA71DB0A6090042D66B /* SeperatorDecorationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3008BCB71DB0C0090039F716 /* CellForSection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSection1.h; sourceTree = "<group>"; };
+		3008BCB81DB0C0090039F716 /* CellForSection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSection1.m; sourceTree = "<group>"; };
+		3008BCBA1DB0C8B60039F716 /* UIView+FrameProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameProcessor.h"; sourceTree = "<group>"; };
+		3008BCBB1DB0C8B60039F716 /* UIView+FrameProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameProcessor.m"; sourceTree = "<group>"; };
+		3008BCBD1DB0CEAA0039F716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3008BCBF1DB21F9F0039F716 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		3008BCC01DB21F9F0039F716 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		3008BCC21DB220F70039F716 /* CalendarPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPageViewController.h; sourceTree = "<group>"; };
+		3008BCC31DB220F70039F716 /* CalendarPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPageViewController.m; sourceTree = "<group>"; };
+		3008BCCA1DB2242B0039F716 /* CalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarVC.h; sourceTree = "<group>"; };
+		3008BCCB1DB2242B0039F716 /* CalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarVC.m; sourceTree = "<group>"; };
+		3008BCD31DB32AED0039F716 /* WeekInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekInfoParser.h; sourceTree = "<group>"; };
+		3008BCD41DB32AED0039F716 /* WeekInfoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekInfoParser.m; sourceTree = "<group>"; };
+		3008BCD61DB35E570039F716 /* DateCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCollectionViewCell.h; sourceTree = "<group>"; };
+		3008BCD71DB35E570039F716 /* DateCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCollectionViewCell.m; sourceTree = "<group>"; };
+		3008BCD91DB3777F0039F716 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		3008BCDA1DB3777F0039F716 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		3008BCDC1DB37A570039F716 /* SectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionFooterView.h; sourceTree = "<group>"; };
+		3008BCDD1DB37A570039F716 /* SectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionFooterView.m; sourceTree = "<group>"; };
+		3008BCE41DB48F4E0039F716 /* CalendarLeftItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLeftItemView.h; sourceTree = "<group>"; };
+		3008BCE51DB48F4E0039F716 /* CalendarLeftItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLeftItemView.m; sourceTree = "<group>"; };
+		3008BCE71DB4ECD40039F716 /* CalendarPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarPickerView.h; sourceTree = "<group>"; };
+		3008BCE81DB4ECD40039F716 /* CalendarPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarPickerView.m; sourceTree = "<group>"; };
+		3038DD7F1DB096330042D66B /* 京东金融（仿）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "京东金融（仿）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3038DD831DB096330042D66B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3038DD851DB096330042D66B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3038DD861DB096330042D66B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3038DD911DB096330042D66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3038DD931DB096330042D66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3038DD991DB0973C0042D66B /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		3038DD9A1DB0973C0042D66B /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		3038DD9D1DB098B80042D66B /* UserVCFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserVCFlowLayout.h; sourceTree = "<group>"; };
+		3038DD9E1DB098B80042D66B /* UserVCFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserVCFlowLayout.m; sourceTree = "<group>"; };
+		3038DDA11DB099D00042D66B /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		3038DDA31DB09F4A0042D66B /* CellForSection0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellForSection0.h; sourceTree = "<group>"; };
+		3038DDA41DB09F4A0042D66B /* CellForSection0.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellForSection0.m; sourceTree = "<group>"; };
+		3038DDA61DB0A6090042D66B /* SeperatorDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeperatorDecorationView.h; sourceTree = "<group>"; };
+		3038DDA71DB0A6090042D66B /* SeperatorDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeperatorDecorationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3038DD7C1DB096330042D66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3008BCC81DB221B40039F716 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				3008BCBF1DB21F9F0039F716 /* CalendarViewController.h */,
+				3008BCC01DB21F9F0039F716 /* CalendarViewController.m */,
+				3008BCC21DB220F70039F716 /* CalendarPageViewController.h */,
+				3008BCC31DB220F70039F716 /* CalendarPageViewController.m */,
+				3008BCCA1DB2242B0039F716 /* CalendarVC.h */,
+				3008BCCB1DB2242B0039F716 /* CalendarVC.m */,
+				3008BCD31DB32AED0039F716 /* WeekInfoParser.h */,
+				3008BCD41DB32AED0039F716 /* WeekInfoParser.m */,
+				3008BCD61DB35E570039F716 /* DateCollectionViewCell.h */,
+				3008BCD71DB35E570039F716 /* DateCollectionViewCell.m */,
+				3008BCD91DB3777F0039F716 /* SectionHeaderView.h */,
+				3008BCDA1DB3777F0039F716 /* SectionHeaderView.m */,
+				3008BCDC1DB37A570039F716 /* SectionFooterView.h */,
+				3008BCDD1DB37A570039F716 /* SectionFooterView.m */,
+				3008BCE41DB48F4E0039F716 /* CalendarLeftItemView.h */,
+				3008BCE51DB48F4E0039F716 /* CalendarLeftItemView.m */,
+				3008BCE71DB4ECD40039F716 /* CalendarPickerView.h */,
+				3008BCE81DB4ECD40039F716 /* CalendarPickerView.m */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		3008BCC91DB221DA0039F716 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3038DD991DB0973C0042D66B /* UserViewController.h */,
+				3038DD9A1DB0973C0042D66B /* UserViewController.m */,
+				3038DD9D1DB098B80042D66B /* UserVCFlowLayout.h */,
+				3038DD9E1DB098B80042D66B /* UserVCFlowLayout.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3038DD761DB096320042D66B = {
+			isa = PBXGroup;
+			children = (
+				3038DD811DB096330042D66B /* 京东金融（仿） */,
+				3038DD801DB096330042D66B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3038DD801DB096330042D66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3038DD7F1DB096330042D66B /* 京东金融（仿）.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3038DD811DB096330042D66B /* 京东金融（仿） */ = {
+			isa = PBXGroup;
+			children = (
+				3038DD851DB096330042D66B /* AppDelegate.h */,
+				3038DD861DB096330042D66B /* AppDelegate.m */,
+				3038DD901DB096330042D66B /* LaunchScreen.storyboard */,
+				3038DD931DB096330042D66B /* Info.plist */,
+				3008BCBD1DB0CEAA0039F716 /* Assets.xcassets */,
+				3038DD9C1DB098720042D66B /* UserView */,
+				3038DDA01DB099A30042D66B /* Helpers */,
+				3038DD821DB096330042D66B /* Supporting Files */,
+			);
+			path = "京东金融（仿）";
+			sourceTree = "<group>";
+		};
+		3038DD821DB096330042D66B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3038DD831DB096330042D66B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3038DD9C1DB098720042D66B /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				3008BCC91DB221DA0039F716 /* ViewControllers */,
+				3038DDA21DB09E9A0042D66B /* VIewsAndCells */,
+				3008BCC81DB221B40039F716 /* Calendar */,
+			);
+			name = UserView;
+			sourceTree = "<group>";
+		};
+		3038DDA01DB099A30042D66B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3038DDA11DB099D00042D66B /* Macro.h */,
+				3008BCBA1DB0C8B60039F716 /* UIView+FrameProcessor.h */,
+				3008BCBB1DB0C8B60039F716 /* UIView+FrameProcessor.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		3038DDA21DB09E9A0042D66B /* VIewsAndCells */ = {
+			isa = PBXGroup;
+			children = (
+				3038DDA31DB09F4A0042D66B /* CellForSection0.h */,
+				3038DDA41DB09F4A0042D66B /* CellForSection0.m */,
+				3038DDA61DB0A6090042D66B /* SeperatorDecorationView.h */,
+				3038DDA71DB0A6090042D66B /* SeperatorDecorationView.m */,
+				3008BCB71DB0C0090039F716 /* CellForSection1.h */,
+				3008BCB81DB0C0090039F716 /* CellForSection1.m */,
+			);
+			name = VIewsAndCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3038DD7E1DB096330042D66B /* 京东金融（仿） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3038DD961DB096330042D66B /* Build configuration list for PBXNativeTarget "京东金融（仿）" */;
+			buildPhases = (
+				3038DD7B1DB096330042D66B /* Sources */,
+				3038DD7C1DB096330042D66B /* Frameworks */,
+				3038DD7D1DB096330042D66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "京东金融（仿）";
+			productName = "京东金融（仿）";
+			productReference = 3038DD7F1DB096330042D66B /* 京东金融（仿）.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3038DD771DB096320042D66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = mutouren;
+				TargetAttributes = {
+					3038DD7E1DB096330042D66B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BM66D6ANYU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3038DD7A1DB096320042D66B /* Build configuration list for PBXProject "京东金融（仿）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3038DD761DB096320042D66B;
+			productRefGroup = 3038DD801DB096330042D66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3038DD7E1DB096330042D66B /* 京东金融（仿） */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3038DD7D1DB096330042D66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3038DD921DB096330042D66B /* LaunchScreen.storyboard in Resources */,
+				3008BCBE1DB0CEAA0039F716 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3038DD7B1DB096330042D66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3008BCE91DB4ECD40039F716 /* CalendarPickerView.m in Sources */,
+				3038DD9B1DB0973C0042D66B /* UserViewController.m in Sources */,
+				3008BCC11DB21F9F0039F716 /* CalendarViewController.m in Sources */,
+				3008BCBC1DB0C8B60039F716 /* UIView+FrameProcessor.m in Sources */,
+				3038DD871DB096330042D66B /* AppDelegate.m in Sources */,
+				3038DD841DB096330042D66B /* main.m in Sources */,
+				3008BCC41DB220F70039F716 /* CalendarPageViewController.m in Sources */,
+				3008BCE61DB48F4E0039F716 /* CalendarLeftItemView.m in Sources */,
+				3038DD9F1DB098B80042D66B /* UserVCFlowLayout.m in Sources */,
+				3008BCD81DB35E570039F716 /* DateCollectionViewCell.m in Sources */,
+				3038DDA81DB0A6090042D66B /* SeperatorDecorationView.m in Sources */,
+				3008BCCC1DB2242B0039F716 /* CalendarVC.m in Sources */,
+				3038DDA51DB09F4A0042D66B /* CellForSection0.m in Sources */,
+				3008BCB91DB0C0090039F716 /* CellForSection1.m in Sources */,
+				3008BCDE1DB37A570039F716 /* SectionFooterView.m in Sources */,
+				3008BCDB1DB3777F0039F716 /* SectionHeaderView.m in Sources */,
+				3008BCD51DB32AED0039F716 /* WeekInfoParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3038DD901DB096330042D66B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3038DD911DB096330042D66B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3038DD941DB096330042D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3038DD951DB096330042D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3038DD971DB096330042D66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BM66D6ANYU;
+				INFOPLIST_FILE = "京东金融（仿）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moutouren.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3038DD981DB096330042D66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BM66D6ANYU;
+				INFOPLIST_FILE = "京东金融（仿）/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moutouren.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3038DD7A1DB096320042D66B /* Build configuration list for PBXProject "京东金融（仿）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038DD941DB096330042D66B /* Debug */,
+				3038DD951DB096330042D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3038DD961DB096330042D66B /* Build configuration list for PBXNativeTarget "京东金融（仿）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3038DD971DB096330042D66B /* Debug */,
+				3038DD981DB096330042D66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3038DD771DB096320042D66B /* Project object */;
+}
